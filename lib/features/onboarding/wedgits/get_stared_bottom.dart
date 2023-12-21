@@ -14,7 +14,7 @@ class GetStaredBottom extends StatelessWidget {
           context.pushNamed(Routes.loginScreen);
         },
         style: ButtonStyle(
-          backgroundColor: MaterialStateProperty.all(ColorsManager.mainColors),
+          backgroundColor: MaterialStateProperty.all(ColorsManager.mainBlue),
           tapTargetSize: MaterialTapTargetSize.shrinkWrap,
           minimumSize: const MaterialStatePropertyAll( Size(double.infinity,52)),
           shape: MaterialStatePropertyAll(

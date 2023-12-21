@@ -17,7 +17,7 @@ class DocApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: "Doc App",
         theme: ThemeData(
-          primaryColor: ColorsManager.mainColors
+          primaryColor: ColorsManager.mainBlue
         ),
         initialRoute: Routes.onBoardingScreen,
         onGenerateRoute: appRouter.generateRoute,
